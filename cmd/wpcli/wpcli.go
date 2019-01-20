@@ -12,6 +12,12 @@ var (
 	debug = app.Flag("debug", "Enable debug mode.").Bool()
 )
 
+var (
+	version = "dev"
+	commit  = "none"
+	date    = "unknown"
+)
+
 func main() {
 	commands.RegisterAll(app)
 
