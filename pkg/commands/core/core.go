@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/PeterBooker/wpcli/internal/commands/core/download"
+	"github.com/PeterBooker/wpcli/pkg/commands/core/download"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
 

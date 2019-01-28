@@ -20,7 +20,7 @@ func (d *Command) run(c *kingpin.ParseContext) error {
 	return nil
 }
 
-// Register ...
+// Register the command.
 func Register(app *kingpin.CmdClause) {
 	cmd := &Command{}
 	download := app.Command("download", "Download WordPress.").Action(cmd.run)
