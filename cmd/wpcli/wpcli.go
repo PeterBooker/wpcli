@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/PeterBooker/wpcli/internal/commands"
+	"github.com/PeterBooker/wpcli/pkg/commands"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
 
